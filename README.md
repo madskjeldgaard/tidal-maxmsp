@@ -5,7 +5,7 @@ This is a very simple example of how to connect the Haskell based live coding en
 
 It lets you receive and manipulate data from Tidal parameters and either control visuals in Jitter, use MaxMsp as a synthesis engine for Tidal or whatever your heart desires. 
 
-To be able to use it you need to have Tidal Cycles installed as well as cabal. 
+To be able to use it you need to have Tidal Cycles installed as well as cabal ([learn more]: https://tidalcycles.org/getting_started.html ). 
 
 ![tidal-maxmsp](tidal-max.gif)
 
