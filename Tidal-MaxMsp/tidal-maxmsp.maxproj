@@ -2,7 +2,7 @@
 	"name" : "tidal-maxmsp",
 	"version" : 1,
 	"creationdate" : -695672096,
-	"modificationdate" : -695672081,
+	"modificationdate" : -695629165,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -32,7 +32,7 @@
 
 	}
 ,
-	"detailsvisible" : 0,
+	"detailsvisible" : 1,
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
