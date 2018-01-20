@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 141.0, 78.0, 1265.0, 740.0 ],
+		"rect" : [ 102.0, 78.0, 1150.0, 738.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 868.335144, 467.0, 29.5, 22.0 ],
+					"patching_rect" : [ 868.335144, 512.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "dur"
 				}
@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.920319, 139.0, 221.0, 27.0 ],
+					"patching_rect" : [ 268.920319, 189.0, 221.0, 27.0 ],
 					"style" : "",
 					"text" : "Tidal-MaxMsp example"
 				}
@@ -70,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 758.085205, 392.0, 72.0, 22.0 ],
+					"patching_rect" : [ 758.085205, 437.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 0"
 				}
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.502747, 392.0, 72.0, 22.0 ],
+					"patching_rect" : [ 525.502747, 437.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
 				}
@@ -95,13 +95,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"linecount" : 6,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.920319, 182.0, 555.0, 87.0 ],
+					"patching_rect" : [ 268.920319, 232.0, 628.914795, 33.0 ],
 					"style" : "",
-					"text" : "This is a simple example of receiving OSC data from Tidal.\n\nTo use this example:\n1. Install the cabal module MaxMspOsc\n2. Evaluate the example code in Tidal\n3. Open up this patcher and have fun with the data\n"
+					"text" : "This is a simple example of receiving OSC data from Tidal. Info about installation and setup can be found here: https://github.com/datamads/tidal-maxmsp"
 				}
 
 			}
@@ -111,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 329.0, 532.0, 97.0, 20.0 ],
+					"patching_rect" : [ 329.0, 577.0, 97.0, 20.0 ],
 					"presentation_rect" : [ 164.0, 449.0, 97.0, 20.0 ],
 					"style" : "",
 					"text" : "parameter value"
@@ -124,7 +124,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 815.835144, 532.0, 82.0, 20.0 ],
+					"patching_rect" : [ 815.835144, 577.0, 82.0, 20.0 ],
 					"presentation_rect" : [ 650.835144, 449.0, 82.0, 20.0 ],
 					"style" : "",
 					"text" : "raw message"
@@ -138,7 +138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.920319, 532.0, 348.0, 22.0 ],
+					"patching_rect" : [ 454.920319, 577.0, 348.0, 22.0 ],
 					"presentation_rect" : [ 289.920319, 449.0, 348.0, 22.0 ],
 					"style" : "",
 					"text" : "cps 1. delta 0.25 cycle 3359.75 velocity 1."
@@ -154,7 +154,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 269.0, 532.0, 50.0, 22.0 ],
+					"patching_rect" : [ 269.0, 577.0, 50.0, 22.0 ],
 					"presentation_rect" : [ 104.0, 449.0, 50.0, 22.0 ],
 					"style" : ""
 				}
@@ -163,11 +163,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 4,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 842.0, 392.0, 312.0, 60.0 ],
+					"patching_rect" : [ 840.0, 396.0, 138.0, 114.0 ],
 					"presentation_linecount" : 8,
 					"presentation_rect" : [ 674.0, 335.0, 150.0, 20.0 ],
 					"style" : "",
@@ -181,7 +181,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 587.0, 427.0, 95.0, 20.0 ],
+					"patching_rect" : [ 587.0, 472.0, 95.0, 20.0 ],
 					"presentation_rect" : [ 423.0, 328.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "stream number "
@@ -215,7 +215,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 525.502747, 427.0, 51.0, 18.0 ],
+					"patching_rect" : [ 525.502747, 472.0, 51.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.0, 129.0, 31.0, 18.0 ],
 					"style" : "",
@@ -239,7 +239,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 758.085205, 427.0, 71.0, 15.0 ],
+					"patching_rect" : [ 758.085205, 472.0, 71.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 135.0, 34.0, 68.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -268,7 +268,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 268.920319, 467.0, 534.0, 22.0 ],
+					"patching_rect" : [ 268.920319, 512.0, 534.0, 22.0 ],
 					"style" : "",
 					"text" : "tidal-osc-parse"
 				}
@@ -312,7 +312,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 363.5, 974.0, 230.5 ],
+					"patching_rect" : [ 249.0, 358.5, 787.0, 277.5 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -323,7 +323,7 @@
 				"patchline" : 				{
 					"color" : [ 0.65, 0.65, 0.65, 0.9 ],
 					"destination" : [ "obj-38", 1 ],
-					"midpoints" : [ 535.002747, 455.5, 535.920288, 455.5 ],
+					"midpoints" : [ 535.002747, 500.5, 535.920288, 500.5 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -338,7 +338,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 2 ],
-					"midpoints" : [ 793.585205, 454.0, 793.420288, 454.0 ],
+					"midpoints" : [ 793.585205, 499.0, 793.420288, 499.0 ],
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -393,7 +393,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "tidal-osc-parse.maxpat",
-				"bootpath" : "~/Desktop/scripts/max/tidal-max-example/tidal-maxmsp/patchers",
+				"bootpath" : "~/Desktop/scripts/max/tidal-max-example/tidal-maxmsp/Tidal-MaxMsp/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
