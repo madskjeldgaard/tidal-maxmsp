@@ -7,6 +7,8 @@ It lets you receive and manipulate data from Tidal parameters and either control
 
 To be able to use it you need to have Tidal Cycles installed as well as cabal (see https://tidalcycles.org/getting_started.html ). 
 
+## NOTE: Not tested with Tidal 1.0+
+
 ![tidal-maxmsp](Tidal-MaxMsp/media/tidal-max.gif)
 
 ### How to install:
